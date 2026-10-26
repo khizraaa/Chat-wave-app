@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0b12">
+  <title>ChatWave — Real-Time Chat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+  <!-- Landing page (shown before login) -->
+  <main id="landing" class="landing">
+    <header class="l-nav">
+      <div class="brand"><span class="brand-icon">✦</span>ChatWave</div>
+      <nav>
+        <a href="#l-features">Features</a>
+        <button type="button" class="ghost" data-open="login">Log in</button>
+        <button type="button" class="pill" data-open="signup">Get started</button>
+      </nav>
+    </header>
+
+    <section class="l-hero">
+      <div class="l-copy">
+        <h1>Chat, share and stay close, all in one wave.</h1>
+        <p class="l-sub">Private chats, a lively Global Lounge, photos, voice notes, reactions and 24-hour status updates. Free, fast and made for every screen.</p>
+        <div class="l-cta">
+          <button type="button" class="pill big" data-open="signup">Create free account</button>
+          <button type="button" class="ghost big" data-open="login">I already have one</button>
+        </div>
+      </div>
+
+      <div class="l-phones" aria-hidden="true">
+        <div class="phone p1">
+          <div class="ph-head"><i class="av">A</i><div><b>Ayesha</b><small>online</small></div></div>
+          <div class="ph-body">
+            <div class="b" style="--i:1">Trip ki pic bhej do 📸</div>
+            <div class="b out" style="--i:2"><span class="img">🌄</span>Ye lo! Kya view tha 😍</div>
+            <div class="b" style="--i:3">Wow! ❤️🔥</div>
+            <div class="b out" style="--i:4"><span class="wave"><i style="--h:6"></i><i style="--h:12"></i><i style="--h:18"></i><i style="--h:10"></i><i style="--h:20"></i><i style="--h:14"></i><i style="--h:8"></i><i style="--h:16"></i><i style="--h:22"></i><i style="--h:12"></i><i style="--h:7"></i><i style="--h:15"></i><i style="--h:19"></i><i style="--h:9"></i><i style="--h:13"></i><i style="--h:6"></i></span></div>
+            <div class="b" style="--i:5">typing…</div>
+          </div>
+        </div>
+        <div class="phone p2">
+          <div class="ph-head"><i class="av">S</i><div><b>Status</b><small>24 hours</small></div></div>
+          <div class="st-row"><i class="ring">B</i><i class="ring">Z</i><i class="ring seen">M</i><i class="ring">R</i></div>
+          <div class="story"><span class="story-bars"><u></u><u></u><u></u></span>Good vibes only ✨</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="l-shots" aria-hidden="true">
+      <figure>
+        <div class="phone static"><div class="ph-head"><i class="av">H</i><div><b>Hamza</b><small>last seen today</small></div></div>
+          <div class="ph-body"><div class="b">Notes ki photo? 📚</div><div class="b out"><span class="img sea">🌊</span>Sent ✓✓</div></div></div>
+        <figcaption>Share photos in one tap</figcaption>
+      </figure>
+      <figure>
+        <div class="phone static"><div class="ph-head"><i class="av">N</i><div><b>Noor</b><small>online</small></div></div>
+          <div class="ph-body"><div class="b"><span class="wave"><i style="--h:6"></i><i style="--h:12"></i><i style="--h:18"></i><i style="--h:10"></i><i style="--h:20"></i><i style="--h:14"></i><i style="--h:8"></i><i style="--h:16"></i><i style="--h:22"></i><i style="--h:12"></i><i style="--h:7"></i><i style="--h:15"></i><i style="--h:19"></i><i style="--h:9"></i><i style="--h:13"></i><i style="--h:6"></i></span></div><div class="b out">Sun liya 😂</div></div></div>
+        <figcaption>Send voice notes</figcaption>
+      </figure>
+      <figure>
+        <div class="phone static"><div class="ph-head"><i class="av">✦</i><div><b>Global Lounge</b><small>12 members</small></div></div>
+          <div class="ph-body"><div class="b"><span class="who">Sara</span>Kal quiz hai? 😅<span class="reacts"><span class="react">👍 3</span><span class="react">😮</span></span></div><div class="b out">Haan, 10 baje!</div></div></div>
+        <figcaption>React to anything</figcaption>
+      </figure>
+    </section>
+
+    <section id="l-features" class="l-feat">
+      <h2>Everything you expect from a modern chat</h2>
+      <div class="fgrid">
+        <div class="fcard"><b>💬 Private chats</b><p>One-to-one messages with typing, online status and read ticks.</p></div>
+        <div class="fcard"><b>🟣 Status</b><p>Post a text or photo update that disappears after 24 hours.</p></div>
+        <div class="fcard"><b>🎤 Voice notes</b><p>Record, send and play voice messages right in the chat.</p></div>
+        <div class="fcard"><b>❤️ Reactions and replies</b><p>React with an emoji, reply to a message or edit what you sent.</p></div>
+        <div class="fcard"><b>📷 Photos</b><p>Share pictures and open them full screen.</p></div>
+        <div class="fcard"><b>🌙 Dark and light</b><p>Switch themes anytime. Works on phone, tablet and desktop.</p></div>
+      </div>
+    </section>
+
+    <section class="l-end">
+      <h2>Your people are already waiting.</h2>
+      <button type="button" class="pill big" data-open="signup">Start chatting</button>
+      <p class="muted">A little hello can make someone's day. 💜</p>
+    </section>
+  </main>
+
+  <!-- Auth -->
+  <main id="authScreen" class="auth hidden">
+    <div class="auth-box">
+      <button type="button" id="authBack" class="back-link">← Back to home</button>
+      <div class="brand"><span class="brand-icon">✦</span>ChatWave</div>
+      <h2 id="authTitle">Create your account</h2>
+      <p id="authSubtitle" class="muted">Join the conversation. It starts with you.</p>
+      <div class="tabs">
+        <button type="button" id="signupTab" class="tab active">Create account</button>
+        <button type="button" id="loginTab" class="tab">Log in</button>
+      </div>
+      <form id="authForm">
+        <div id="nameField" class="field">
+          <label for="displayName">Your name</label>
+          <input id="displayName" type="text" placeholder="e.g. Alex Morgan" maxlength="40" autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input id="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="At least 6 characters" minlength="6" autocomplete="current-password" required>
+        </div>
+        <p id="authError" class="error" role="status" aria-live="polite"></p>
+        <button id="authSubmit" class="primary" type="submit"><span id="authSubmitText">Create account</span></button>
+      </form>
+    </div>
+  </main>
+
+  <!-- Chat app -->
+  <main id="chatScreen" class="app hidden">
+    <aside class="sidebar">
+      <header class="side-head">
+        <div id="myAvatar" class="avatar">U</div>
+        <div class="grow"><strong id="myName">You</strong><small id="connectionText" class="muted">Connecting…</small></div>
+        <button id="themeBtn" class="icon-btn" aria-label="Change theme" title="Light / dark">◐</button>
+        <button id="logoutBtn" class="icon-btn" aria-label="Log out" title="Log out">↪</button>
+      </header>
+      <div class="search"><input id="searchInput" type="search" placeholder="Search or start a new chat" aria-label="Search chats"></div>
+      <nav class="tabs side-tabs">
+        <button type="button" id="tabChats" class="tab active">Chats</button>
+        <button type="button" id="tabPeople" class="tab">People</button>
+        <button type="button" id="tabStatus" class="tab">Status</button>
+      </nav>
+      <div id="chatList" class="chat-list"></div>
+    </aside>
+
+    <section class="pane">
+      <div id="placeholder" class="empty big"><div class="empty-icon">✦</div><h3>ChatWave</h3><p>Select a chat to start messaging.</p></div>
+
+      <div id="chatView" class="chat-view hidden">
+        <header class="chat-head">
+          <button id="backBtn" class="icon-btn back" aria-label="Back">←</button>
+          <div id="headAvatar" class="avatar">✦</div>
+          <div class="grow"><strong id="headTitle">Chat</strong><small id="headSub" class="muted"></small></div>
+        </header>
+
+        <section id="messages" class="messages" aria-live="polite"></section>
+        <button id="downBtn" class="down hidden" aria-label="Scroll to latest">↓</button>
+
+        <div id="emojiPicker" class="emoji-picker hidden"></div>
+
+        <footer class="composer-area">
+          <div id="replyBar" class="reply-bar hidden">
+            <div class="grow"><b id="replyName"></b><span id="replyText"></span></div>
+            <button id="replyClose" class="icon-btn" aria-label="Cancel reply">✕</button>
+          </div>
+          <div id="sendError" class="error"></div>
+          <form id="messageForm" class="composer">
+            <button id="emojiBtn" class="icon-btn" type="button" aria-label="Emoji">☺</button>
+            <button id="attachBtn" class="icon-btn" type="button" aria-label="Send photo">📎</button>
+            <input id="fileInput" type="file" accept="image/*" hidden>
+            <input id="messageInput" type="text" placeholder="Type a message" maxlength="2000" autocomplete="off" aria-label="Message">
+            <button id="micBtn" class="icon-btn" type="button" aria-label="Record voice note" title="Voice note">🎤</button>
+            <button id="sendBtn" class="send" type="submit" aria-label="Send">➤</button>
+          </form>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <!-- Status composer -->
+  <div id="statusComposer" class="overlay hidden">
+    <div id="scCard" class="sc">
+      <button id="scClose" type="button" class="icon-btn" aria-label="Close">✕</button>
+      <textarea id="scText" maxlength="300" placeholder="Type a status" aria-label="Status text"></textarea>
+      <div id="scPreview" class="sc-img hidden"></div>
+      <div class="sc-tools">
+        <div id="scColors"></div>
+        <button id="scPhoto" type="button" class="icon-btn" aria-label="Add photo">🖼</button>
+        <input id="scFile" type="file" accept="image/*" hidden>
+        <button id="scPost" type="button" class="primary">Post</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Status viewer -->
+  <div id="statusViewer" class="overlay hidden">
+    <div class="sv">
+      <div id="svBars" class="sv-bars"></div>
+      <div class="sv-head">
+        <div id="svAv" class="avatar">U</div>
+        <div class="grow"><strong id="svName"></strong><small id="svTime"></small></div>
+        <button id="svDel" type="button" class="icon-btn hidden" aria-label="Delete status">🗑</button>
+        <button id="svClose" type="button" class="icon-btn" aria-label="Close">✕</button>
+      </div>
+      <div id="svStage" class="sv-stage"></div>
+      <div id="svSeen" class="sv-seen"></div>
+      <button id="svPrev" type="button" class="sv-tap l" aria-label="Previous"></button>
+      <button id="svNext" type="button" class="sv-tap r" aria-label="Next"></button>
+    </div>
+  </div>
+
+  <div id="menu" class="menu hidden"></div>
+  <div id="lightbox" class="lightbox hidden"><img alt="Photo"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="script.js?v=4"></script>
+</body>
+</html>
